@@ -18,5 +18,21 @@
         "titleBar.border": "#f47a5b",
         "titleBar.inactiveBackground": "#f47a5b99",
         "titleBar.inactiveForeground": "#00000099"
-    }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.trunk/*out": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*plugins/": true,
+        "**/.history": true,
+        ".history": true
+    },
+    "explorerExclude.backup": {}
 }
